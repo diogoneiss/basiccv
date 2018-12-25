@@ -1,0 +1,42 @@
+/****************************** Seletores de Tags ********************/
+
+body {
+  background-color: #ebf0f6;
+}
+hr {
+  border-style: none;
+  border-color: #0d7377;
+  border-top-style: dotted;
+  width: 15%;
+  height:0;
+  border-width: 20px;
+  margin-top: 30px;
+}
+img {
+  height: 200px;
+  border-style: solid;
+  border-width: medium;
+  box-shadow: 3px 3px 10px grey;
+}
+
+img:hover {
+  border-color: red;
+  border-width: medium;
+}
+
+/****************************** Seletores de Classes ********************/
+
+.importante {
+ color: #0d7377;
+ text-shadow: 2px 2px 8px lightgrey;
+
+}
+
+
+/****************************** Seletores de ID's ********************/
+/*          vou deixar comentado pq o linter enche o saco
+#rodape {
+  font-style: italic;
+}
+
+*/
